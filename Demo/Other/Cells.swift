@@ -18,7 +18,9 @@ class Cells: NSObject {
         Vue.register(aClass: TableContentCellModel.classForCoder(), toClass: TableContentCell.classForCoder())
         
         
-        
+        Vue.register(aClass: CodeTitleCellModel.classForCoder(), toClass: CodeTitleCell.classForCoder())
+        Vue.register(aClass: CodeCellModel.classForCoder(), toClass: CodeCell.classForCoder())
+
         
 
     }

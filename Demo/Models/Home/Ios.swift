@@ -9,7 +9,8 @@
 import UIKit
 import VueSwift
 class Ios:Vue,V_ViewControllerProtocol,POSTProtocol{
-    
+    var array = [VueData]()
+
     func v_viewController() -> UIViewController{
         let vc = HomeViewController()
         vc.m = self
@@ -26,23 +27,49 @@ class Ios:Vue,V_ViewControllerProtocol,POSTProtocol{
         
         self.v_index(vId: INDEXID) { (index) in
             print(index)
+            
+            switch index{
+                
+            case 0:
+                Router.push(IosTextDetails(), nil, nil)
+            case 1:
+                Router.push(IosIfDetails(), nil, nil)
+                
+            case 2:
+                Router.push(IosImageDetails(), nil, nil)
+                
+            case 3:
+                Router.push(IosOnDetails(), nil, nil)
+                
+            case 4:
+                Router.push(IosInputDetails(), nil, nil)
+                
+            case 5:
+                Router.push(IosArrayDetails(), nil, nil)
+                
+            case 6:
+                Router.push(IosIndexDetails(), nil, nil)
+                
+            default:
+                return
+            }
+            
         }
     }
     
     func POSTHttpWithData(_ httP: POSTProtocol, _ data: Any) {
         
-        var array = [VueData]()
-        for i in 1...12{
+        let strs = ["v_text","v_if","v_image","v_on","v_input","v_array","v_index"]
+        for value in strs{
             let m = T1Model()
-            m.name = "Ios"
-            array.append(m)
+            m.name = value
+            self.array.append(m)
         }
         self.v_array(vId: ARRAYID) { () -> Array<VueData>? in
             
-            return array
+            return self.array
             
         }
-        
         
     }
     func POSTHttpWithError(_ httP: POSTProtocol, _ error: String) {
