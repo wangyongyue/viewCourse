@@ -19,17 +19,17 @@
 		1805D19423167DED00A986A7 /* IosOnDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19323167DED00A986A7 /* IosOnDetails.swift */; };
 		1805D19623167DF700A986A7 /* IosInputDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19523167DF700A986A7 /* IosInputDetails.swift */; };
 		1805D19823167E0500A986A7 /* IosArrayDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19723167E0500A986A7 /* IosArrayDetails.swift */; };
-		1805D19A23167E1000A986A7 /* IosIndexDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19923167E1000A986A7 /* IosIndexDetails.swift */; };
 		1805D19C23167E1F00A986A7 /* AndroidTextDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19B23167E1F00A986A7 /* AndroidTextDetails.swift */; };
 		1805D19E23167E2600A986A7 /* AndroidIfDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19D23167E2600A986A7 /* AndroidIfDetails.swift */; };
 		1805D1A023167E3200A986A7 /* AndroidImageDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D19F23167E3200A986A7 /* AndroidImageDetails.swift */; };
 		1805D1A223167E3C00A986A7 /* AndroidOnDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1A123167E3C00A986A7 /* AndroidOnDetails.swift */; };
 		1805D1A423167E4A00A986A7 /* AndroidInputDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1A323167E4A00A986A7 /* AndroidInputDetails.swift */; };
 		1805D1A623167E5300A986A7 /* AndroidArrayDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1A523167E5300A986A7 /* AndroidArrayDetails.swift */; };
-		1805D1A823167E6100A986A7 /* AndroidIndexDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1A723167E6100A986A7 /* AndroidIndexDetails.swift */; };
 		1805D1AA23167EA700A986A7 /* VueBindDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1A923167EA700A986A7 /* VueBindDetails.swift */; };
 		1805D1AC23167EC500A986A7 /* VueForDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1AB23167EC500A986A7 /* VueForDetails.swift */; };
 		1805D1AE2316831400A986A7 /* CodeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1AD2316831400A986A7 /* CodeData.swift */; };
+		1805D1B82317AE3900A986A7 /* code.html in Resources */ = {isa = PBXBuildFile; fileRef = 1805D1B72317AE3900A986A7 /* code.html */; };
+		1805D1BA2317B03800A986A7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805D1B92317B03800A986A7 /* WebViewController.swift */; };
 		1805DF07230D4EDC007F314B /* Ios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805DF06230D4EDC007F314B /* Ios.swift */; };
 		1805DF09230D4EE3007F314B /* Android.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1805DF08230D4EE3007F314B /* Android.swift */; };
 		18911BBC22CB4281007618B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18911BBB22CB4281007618B0 /* AppDelegate.swift */; };
@@ -95,17 +95,17 @@
 		1805D19323167DED00A986A7 /* IosOnDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosOnDetails.swift; sourceTree = "<group>"; };
 		1805D19523167DF700A986A7 /* IosInputDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosInputDetails.swift; sourceTree = "<group>"; };
 		1805D19723167E0500A986A7 /* IosArrayDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosArrayDetails.swift; sourceTree = "<group>"; };
-		1805D19923167E1000A986A7 /* IosIndexDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosIndexDetails.swift; sourceTree = "<group>"; };
 		1805D19B23167E1F00A986A7 /* AndroidTextDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidTextDetails.swift; sourceTree = "<group>"; };
 		1805D19D23167E2600A986A7 /* AndroidIfDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidIfDetails.swift; sourceTree = "<group>"; };
 		1805D19F23167E3200A986A7 /* AndroidImageDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidImageDetails.swift; sourceTree = "<group>"; };
 		1805D1A123167E3C00A986A7 /* AndroidOnDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidOnDetails.swift; sourceTree = "<group>"; };
 		1805D1A323167E4A00A986A7 /* AndroidInputDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidInputDetails.swift; sourceTree = "<group>"; };
 		1805D1A523167E5300A986A7 /* AndroidArrayDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidArrayDetails.swift; sourceTree = "<group>"; };
-		1805D1A723167E6100A986A7 /* AndroidIndexDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroidIndexDetails.swift; sourceTree = "<group>"; };
 		1805D1A923167EA700A986A7 /* VueBindDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueBindDetails.swift; sourceTree = "<group>"; };
 		1805D1AB23167EC500A986A7 /* VueForDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VueForDetails.swift; sourceTree = "<group>"; };
 		1805D1AD2316831400A986A7 /* CodeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeData.swift; sourceTree = "<group>"; };
+		1805D1B72317AE3900A986A7 /* code.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = code.html; sourceTree = "<group>"; };
+		1805D1B92317B03800A986A7 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		1805DF06230D4EDC007F314B /* Ios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ios.swift; sourceTree = "<group>"; };
 		1805DF08230D4EE3007F314B /* Android.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Android.swift; sourceTree = "<group>"; };
 		18911BB822CB4281007618B0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,7 +201,6 @@
 				1805D1A123167E3C00A986A7 /* AndroidOnDetails.swift */,
 				1805D1A323167E4A00A986A7 /* AndroidInputDetails.swift */,
 				1805D1A523167E5300A986A7 /* AndroidArrayDetails.swift */,
-				1805D1A723167E6100A986A7 /* AndroidIndexDetails.swift */,
 			);
 			path = AndroidDetails;
 			sourceTree = "<group>";
@@ -215,7 +214,6 @@
 				1805D19323167DED00A986A7 /* IosOnDetails.swift */,
 				1805D19523167DF700A986A7 /* IosInputDetails.swift */,
 				1805D19723167E0500A986A7 /* IosArrayDetails.swift */,
-				1805D19923167E1000A986A7 /* IosIndexDetails.swift */,
 			);
 			path = IosDetails;
 			sourceTree = "<group>";
@@ -230,6 +228,14 @@
 				1805D1AB23167EC500A986A7 /* VueForDetails.swift */,
 			);
 			path = VueDetails;
+			sourceTree = "<group>";
+		};
+		1805D1B62317ADB300A986A7 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				1805D1B72317AE3900A986A7 /* code.html */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 		1888B2C222EEA4B9001E9BE0 /* Home */ = {
@@ -322,6 +328,7 @@
 				45985A7322ED49DB00FB19F4 /* ListView.swift */,
 				45985A7522ED49ED00FB19F4 /* CollectionView.swift */,
 				45985A7922ED50BF00FB19F4 /* TabViewController.swift */,
+				1805D1B92317B03800A986A7 /* WebViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -356,6 +363,7 @@
 				18911BF422CB4992007618B0 /* Image.swift */,
 				18911BF622CB49A1007618B0 /* Color.swift */,
 				1805D1AD2316831400A986A7 /* CodeData.swift */,
+				1805D1B62317ADB300A986A7 /* html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -545,6 +553,7 @@
 				18911BC622CB42A5007618B0 /* LaunchScreen.storyboard in Resources */,
 				18911BC322CB42A5007618B0 /* Assets.xcassets in Resources */,
 				18911BC122CB4281007618B0 /* Main.storyboard in Resources */,
+				1805D1B82317AE3900A986A7 /* code.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -675,9 +684,9 @@
 				1805D19C23167E1F00A986A7 /* AndroidTextDetails.swift in Sources */,
 				1805DF09230D4EE3007F314B /* Android.swift in Sources */,
 				18C5FE7C22CF4483003C7EEA /* Configuration.swift in Sources */,
+				1805D1BA2317B03800A986A7 /* WebViewController.swift in Sources */,
 				1805D19223167DE200A986A7 /* IosImageDetails.swift in Sources */,
 				45985A7422ED49DB00FB19F4 /* ListView.swift in Sources */,
-				1805D19A23167E1000A986A7 /* IosIndexDetails.swift in Sources */,
 				1805D19623167DF700A986A7 /* IosInputDetails.swift in Sources */,
 				18911C0122CB4DC6007618B0 /* Home.swift in Sources */,
 				45985A7F22ED51D200FB19F4 /* TabContentCell.swift in Sources */,
@@ -687,7 +696,6 @@
 				1805D19023167DD900A986A7 /* IosIfDetails.swift in Sources */,
 				45985A7A22ED50BF00FB19F4 /* TabViewController.swift in Sources */,
 				1805D1A623167E5300A986A7 /* AndroidArrayDetails.swift in Sources */,
-				1805D1A823167E6100A986A7 /* AndroidIndexDetails.swift in Sources */,
 				18911BFD22CB4BD1007618B0 /* T1Cell.swift in Sources */,
 				1805D1A223167E3C00A986A7 /* AndroidOnDetails.swift in Sources */,
 				1805D1AC23167EC500A986A7 /* VueForDetails.swift in Sources */,

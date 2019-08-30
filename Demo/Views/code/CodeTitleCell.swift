@@ -61,7 +61,7 @@ class CodeTitleCellModel: VueData{
     var name:String?
     
     override func v_height() -> CGFloat {
-        return 80
+        return 30
     }
     init(_ text:String?) {
         name  = text

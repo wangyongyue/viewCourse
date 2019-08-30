@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+<div style="color:red">
+class TestViewController: UIViewController {
+
+var m:Vue?
+override func viewDidLoad() {
+super.viewDidLoad()
+
+// Do any additional setup after loading the view.
+self.view.backgroundColor = UIColor.white
+
+
+let label:UILabel = {
+let a = UILabel()
+a.textColor = UIColor.black
+a.textAlignment = .center
+return a
+}()
+
+self.view.addSubview(label)
+
+label.snp.makeConstraints { (make) in
+make.top.equalTo(164)
+make.left.equalTo(0)
+make.right.equalTo(0)
+}
+
+label.v_text(vId: testIfId, vue: m)
+m?.v_start()
+}
+}
+</div>
+
+</body>
+</html>

@@ -15,7 +15,7 @@ class BaseTabBarController: UITabBarController {
         
         
 //        addChildVC(childVC: Menu().v_viewController(), childTitle: "主页", image: Image.mine(), selectedImage: Image.mine_sel())
-        addChildVC(childVC: Home().v_viewController(), childTitle: "Home", image: Image.mine(), selectedImage: Image.mine_sel())
+        addChildVC(childVC: Home().v_viewController(), childTitle: "Vue", image: Image.mine(), selectedImage: Image.mine_sel())
         addChildVC(childVC: Ios().v_viewController(), childTitle: "IOS", image: Image.mine(), selectedImage: Image.mine_sel())
         addChildVC(childVC: Android().v_viewController(), childTitle: "Android", image: Image.mine(), selectedImage: Image.mine_sel())
 

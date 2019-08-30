@@ -29,7 +29,6 @@ class CodeCell: UITableViewCell {
             make.top.equalTo(0)
             make.left.equalTo(0)
             make.right.equalTo(0)
-            make.height.equalTo(30)
             make.bottom.equalTo(0)
             
         }
@@ -60,7 +59,7 @@ class CodeCellModel: VueData{
     
     var name:String?
     override func v_height() -> CGFloat {
-        return 80
+        return 30
     }
     
     init(_ text:String?) {

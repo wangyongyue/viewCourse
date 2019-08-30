@@ -47,8 +47,6 @@ class Android:Vue,V_ViewControllerProtocol,POSTProtocol{
             case 5:
                 Router.push(AndroidArrayDetails(), nil, nil)
                 
-            case 6:
-                Router.push(AndroidIndexDetails(), nil, nil)
                 
             default:
                 return
@@ -59,7 +57,7 @@ class Android:Vue,V_ViewControllerProtocol,POSTProtocol{
     
     func POSTHttpWithData(_ httP: POSTProtocol, _ data: Any) {
         
-        let strs = ["v_text","v_if","v_image","v_on","v_input","v_array","v_index"]
+        let strs = ["v_text","v_if","v_image","v_on","v_input","v_array   v_index"]
         for value in strs{
             let m = T1Model()
             m.name = value
