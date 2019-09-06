@@ -57,7 +57,7 @@ class Android:Vue,V_ViewControllerProtocol,POSTProtocol{
     
     func POSTHttpWithData(_ httP: POSTProtocol, _ data: Any) {
         
-        let strs = ["v_text","v_if","v_image","v_on","v_input","v_array   v_index"]
+        let strs = ["文本渲染 v_text","条件语句 v_if","图片渲染 v_image","事件传递 v_on","双向绑定文本输入 v_input","列表数据 v_array 列表事件传递  v_index"]
         for value in strs{
             let m = T1Model()
             m.name = value

@@ -15,8 +15,16 @@ class CodeData: NSObject {
         
         var array = Array<VueData>()
         array.append(CodeTitleCellModel("cddo"))
-        array.append(CodeCellModel("sdfsdfsdfsdf"))
-
+        array.append(CodeCellModel("<div id=\"app\">"))
+        array.append(CodeCellModel("    {{ message }}"))
+        array.append(CodeCellModel("</div>"))
+        array.append(CodeCellModel("var app = new Vue({"))
+        array.append(CodeCellModel("    el: '#app',"))
+        array.append(CodeCellModel("    data: {"))
+        array.append(CodeCellModel("        message: 'Hello Vue!'"))
+        array.append(CodeCellModel("    }"))
+        array.append(CodeCellModel(" })"))
+       
         return array;
     }
     
@@ -24,7 +32,15 @@ class CodeData: NSObject {
         
         var array = Array<VueData>()
         array.append(CodeTitleCellModel("cddo"))
-        array.append(CodeCellModel("sdfsdfsdfsdf"))
+        array.append(CodeCellModel("<div id=\"app\">"))
+        array.append(CodeCellModel("    {{ message }}"))
+        array.append(CodeCellModel("</div>"))
+        array.append(CodeCellModel("var app = new Vue({"))
+        array.append(CodeCellModel("    el: '#app',"))
+        array.append(CodeCellModel("    data: {"))
+        array.append(CodeCellModel("        message: 'Hello Vue!'"))
+        array.append(CodeCellModel("    }"))
+        array.append(CodeCellModel(" })"))
         
         return array;
     }
@@ -33,7 +49,15 @@ class CodeData: NSObject {
         
         var array = Array<VueData>()
         array.append(CodeTitleCellModel("cddo"))
-        array.append(CodeCellModel("sdfsdfsdfsdf"))
+        array.append(CodeCellModel("<div id=\"app-3\">"))
+        array.append(CodeCellModel("<p v-if=\"seen\">现在你看到我了</p>"))
+        array.append(CodeCellModel("</div>"))
+        array.append(CodeCellModel("var app3 = new Vue({"))
+        array.append(CodeCellModel("    el: '#app-3',"))
+        array.append(CodeCellModel("    data: {"))
+        array.append(CodeCellModel("        seen: true"))
+        array.append(CodeCellModel("    }"))
+        array.append(CodeCellModel(" })"))
         
         return array;
     }
@@ -43,7 +67,22 @@ class CodeData: NSObject {
         
         var array = Array<VueData>()
         array.append(CodeTitleCellModel("cddo"))
-        array.append(CodeCellModel("sdfsdfsdfsdf"))
+        array.append(CodeCellModel("<div id=\"example-2\">"))
+        array.append(CodeCellModel("   <!-- `greet` 是在下面定义的方法名 -->"))
+        array.append(CodeCellModel("     <button v-on:click=\"greet\">Greet</button>"))
+        array.append(CodeCellModel("</div>"))
+        array.append(CodeCellModel("var example2 = new Vue({"))
+        array.append(CodeCellModel("    el: '#example-2',"))
+        array.append(CodeCellModel("    data: {"))
+        array.append(CodeCellModel("        name: 'Vue.js'"))
+        array.append(CodeCellModel("    },"))
+        array.append(CodeCellModel("    methods: {"))
+        array.append(CodeCellModel("        greet: function (event) {"))
+        array.append(CodeCellModel("             alert('Hello ' + this.name + '!')"))
+        array.append(CodeCellModel("        }"))
+        array.append(CodeCellModel("    }"))
+        array.append(CodeCellModel(" })"))
+        
         
         return array;
     }
@@ -51,7 +90,19 @@ class CodeData: NSObject {
         
         var array = Array<VueData>()
         array.append(CodeTitleCellModel("cddo"))
-        array.append(CodeCellModel("sdfsdfsdfsdf"))
+        array.append(CodeCellModel("<div id=\"app-2\">"))
+        array.append(CodeCellModel("<span v-bind:title=\"message\">"))
+        array.append(CodeCellModel("鼠标悬停几秒钟查看此处动态绑定的提示信息！"))
+        array.append(CodeCellModel("</span>"))
+        array.append(CodeCellModel("</div>"))
+        array.append(CodeCellModel(""))
+        array.append(CodeCellModel("var app2 = new Vue({"))
+        array.append(CodeCellModel("    el: '#app-2',"))
+        array.append(CodeCellModel("    data: {"))
+        array.append(CodeCellModel("        message: '页面加载于 ' + new Date().toLocaleString()"))
+        array.append(CodeCellModel("    }"))
+        array.append(CodeCellModel("})"))
+        
         
         return array;
     }
@@ -60,7 +111,24 @@ class CodeData: NSObject {
         
         var array = Array<VueData>()
         array.append(CodeTitleCellModel("cddo"))
-        array.append(CodeCellModel("sdfsdfsdfsdf"))
+        array.append(CodeCellModel("<div id=\"app-4\">"))
+        array.append(CodeCellModel("<ol>"))
+        array.append(CodeCellModel("<li v-for=\"todo in todos\">"))
+        array.append(CodeCellModel("{{ todo.text }}"))
+        array.append(CodeCellModel("</li>"))
+        array.append(CodeCellModel("</ol>"))
+        array.append(CodeCellModel("</div>"))
+        array.append(CodeCellModel("var app4 = new Vue({"))
+        array.append(CodeCellModel("    el: '#app-4',"))
+        array.append(CodeCellModel("    data: {"))
+        array.append(CodeCellModel("        todos: ["))
+        array.append(CodeCellModel("        { text: '学习 JavaScript' },"))
+        array.append(CodeCellModel("        { text: '学习 Vue' },"))
+        array.append(CodeCellModel("        { text: '整个牛项目' }"))
+        array.append(CodeCellModel("        ]"))
+        array.append(CodeCellModel("      }"))
+        array.append(CodeCellModel("})"))
+
         
         return array;
     }

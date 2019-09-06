@@ -51,7 +51,7 @@ class Home:Vue,V_ViewControllerProtocol,POSTProtocol{
     }
   
     func POSTHttpWithData(_ httP: POSTProtocol, _ data: Any) {
-        let strs = ["v_text","v_show","v_on","v_model","v_for"]
+        let strs = ["声明式渲染 {{ msg }}","条件与循环 v-if","事件处理 v-on","双向绑定 v-model","列表 v-for"]
         for value in strs{
             let m = T1Model()
             m.name = value
